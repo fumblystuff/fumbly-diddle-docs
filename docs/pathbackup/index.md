@@ -1,11 +1,7 @@
 # Path Backup & Restore
 
-Bacon ipsum dolor amet short ribs flank pastrami pig leberkas jerky sausage ribeye. Landjaeger shank andouille tenderloin, buffalo shankle jerky cow ham alcatra pork tail porchetta. Picanha meatball kielbasa, spare ribs strip steak jowl kevin. Tenderloin boudin flank pork belly pastrami ball tip burgdoggen, pig kevin brisket beef venison turkey swine doner. Tri-tip sausage tenderloin pancetta beef ribs turkey. Ball tip sirloin salami, pork loin tenderloin drumstick shank ground round alcatra jowl meatball burgdoggen.
+A simple Path backup and Restore utility for Windows. In early versions of Windows, Windows users and applications set the path environment variable in the system's `autoexec.bat` file. Recently, Google won't tell me when, Microsoft split the path into two parts, the User Path and System Path and moved the Environment variable setting from the `autoexec.bat` file to the system's Registry.
 
-Pork belly swine tongue shoulder rump tail ham hock beef ribs cupim turducken landjaeger andouille salami. Tongue pastrami ham prosciutto ham hock. Strip steak leberkas tail boudin jerky turkey burgdoggen. Ribeye ball tip flank venison spare ribs.
+In the old days, when you made changes to the Path, you could make a copy of the current path and put it back in the system's `autoexec.bat` file commented out. If the changes you made didn't work out, you could always copy the old path back and be done with it.
 
-Pig corned beef rump sirloin flank tri-tip ham boudin hamburger landjaeger short ribs swine t-bone turducken biltong. Shank buffalo pork pork chop leberkas ham hock chislic cow. Ground round turducken meatball tri-tip bresaola salami boudin andouille. Salami short loin swine leberkas andouille boudin chislic alcatra.
-
-Venison pork landjaeger boudin ham, burgdoggen jerky shank frankfurter chislic buffalo pig bresaola alcatra. Meatloaf doner tenderloin leberkas picanha alcatra bacon turducken jowl burgdoggen rump spare ribs sirloin tri-tip cupim. Leberkas cupim pork belly pig turducken. Short loin meatball pig bacon prosciutto, drumstick doner flank sausage pork frankfurter swine.
-
-Burgdoggen shank andouille cow chuck, ground round meatball strip steak alcatra. Leberkas pig swine ham hock. Doner pork chop shankle venison flank chuck. Hamburger alcatra spare ribs capicola pork shank buffalo frankfurter. Strip steak short loin shankle spare ribs doner. Landjaeger chuck bresaola venison swine capicola.
+In Windows 11, Windows stores the User Path in `HKEY_CURRENT_USER\Environment\Path` and the System Path in `HKEY_LOCAL_MACHING\SYSTEM\CurrentControlSet\Control\Session Manager\Environment\Path`. If you're messing around with the Path and want to make a backup, you must open the Registry Editor app (or equivalent), navigate the Registry hierarchy to the two different locations specified above and copy the value from the registry into a text file or something. 
