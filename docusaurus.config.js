@@ -82,55 +82,45 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Stack Overflow',
-        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //       },
-        //       {
-        //         label: 'Discord',
-        //         href: 'https://discordapp.com/invite/docusaurus',
-        //       },
-        //       {
-        //         label: 'Twitter',
-        //         href: 'https://twitter.com/docusaurus',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       {
-        //         label: 'Blog',
-        //         to: '/blog',
-        //       },
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/fumblystuff',
-        //       },
-        //     ],
-        //   },
-        // ],
-        copyright: `Copyright ${new Date().getFullYear()} Fumbly Diddle Software. Built with Docusaurus.`,
+        style: 'dark',        
+        copyright: `Copyright ${new Date().getFullYear()} Fumbly Diddle Software; Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
     }),
+
+    plugins: [
+      [
+        '@docusaurus/plugin-pwa',
+        {
+          debug: true,
+          offlineModeActivationStrategies: [
+            'appInstalled',
+            'standalone',
+            'queryString',
+          ],
+          pwaHead: [
+            {
+              tagName: 'link',
+              rel: 'icon',
+              href: '/img/logo.svg',
+            },
+            {
+              tagName: 'link',
+              rel: 'manifest',
+              href: '/manifest.json', // your PWA manifest
+            },
+            {
+              tagName: 'meta',
+              name: 'theme-color',
+              content: 'rgb(37, 194, 160)',
+            },
+          ],
+        },
+      ],
+    ],
 };
 
 export default config;
