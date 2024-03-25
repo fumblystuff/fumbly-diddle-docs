@@ -42,10 +42,9 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.js'
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
-            // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            // 'https://github.com/fumblystuff/fumbly-diddle-docs/tree/main/packages/create-docusaurus/templates/shared/',
         },       
         theme: {
           customCss: './src/css/custom.css',
@@ -56,9 +55,7 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      // image: 'img/docusaurus-social-card.jpg',
+    ({    
       navbar: {
         title: 'Fumbly Diddle Docs',
         logo: {
@@ -66,16 +63,8 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          //  {to: '/docs', label: 'Documentation', position: 'left'},
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/fumblystuff',
+            href: 'https://github.com/fumblystuff/fumbly-diddle-docs',
             label: 'GitHub',
             position: 'right',
           },
