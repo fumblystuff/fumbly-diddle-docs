@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -17,7 +17,7 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-  
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'fumblystuff', // Usually your GitHub org/user name.
@@ -44,24 +44,18 @@ const config = {
           sidebarPath: './sidebars.js'
           // Remove this to remove the "edit this page" links.
           // editUrl:
-            // 'https://github.com/fumblystuff/fumbly-diddle-docs/tree/main/packages/create-docusaurus/templates/shared/',
-        },       
+          // 'https://github.com/fumblystuff/fumbly-diddle-docs/tree/main/packages/create-docusaurus/templates/shared/',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
-      }),
-      {
-        gtag: {
-          trackingID: 'G-LNWBDGJ3YY',
-          anonymizeIP: true,
-        },
-      },
+      })
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({    
+    ({
       navbar: {
         title: 'Fumbly Diddle Docs',
         logo: {
@@ -77,7 +71,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',        
+        style: 'dark',
         copyright: `Copyright ${new Date().getFullYear()} Fumbly Diddle Software; Built with Docusaurus.`,
       },
       prism: {
@@ -86,36 +80,43 @@ const config = {
       },
     }),
 
-    plugins: [
-      [
-        '@docusaurus/plugin-pwa',
-        {
-          debug: true,
-          offlineModeActivationStrategies: [
-            'appInstalled',
-            'standalone',
-            'queryString',
-          ],
-          pwaHead: [
-            {
-              tagName: 'link',
-              rel: 'icon',
-              href: '/img/logo.svg',
-            },
-            {
-              tagName: 'link',
-              rel: 'manifest',
-              href: '/manifest.json', // your PWA manifest
-            },
-            {
-              tagName: 'meta',
-              name: 'theme-color',
-              content: 'rgb(37, 194, 160)',
-            },
-          ],
-        },
-      ],
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/logo.svg',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json', // your PWA manifest
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(37, 194, 160)',
+          },
+        ],
+      }
     ],
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-LNWBDGJ3YY',
+        anonymizeIP: true,
+      }
+    ]
+  ],
 };
 
 export default config;
