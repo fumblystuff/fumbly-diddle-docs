@@ -1,4 +1,5 @@
 ---
+title: Path Backup Troubleshooting
 sidebar_label: Error Messages
 sidebar_position: 3
 ---

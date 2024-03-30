@@ -1,4 +1,5 @@
 ---
+title: Path Backup Automation
 sidebar_label: Automation
 sidebar_position: 2
 ---
