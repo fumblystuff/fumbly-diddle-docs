@@ -8,8 +8,8 @@ Note to self, product images go into the `static/images/<product_name>` folder.
 
 ## Tasks
 
-- [x] Load manifest
-- [x] Google analytics - https://mpolinowski.github.io/docs/Development/Javascript/2022-07-01-docusaurus-introduction/2022-07-01/
+- [ ] Load manifest
+- [ ] Google analytics - https://mpolinowski.github.io/docs/Development/Javascript/2022-07-01-docusaurus-introduction/2022-07-01/
 - [ ] 
 - [ ] 
 - [ ] 
