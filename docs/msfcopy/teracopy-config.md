@@ -1,7 +1,7 @@
 ---
 title: TeraCopy Configuration
 sidebar_label: TeraCopy Configuration
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # TeraCopy Configuration
