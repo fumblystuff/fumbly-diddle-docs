@@ -1,0 +1,9 @@
+---
+title: Operation
+sidebar_label: Using the Application
+sidebar_position: 2
+---
+
+To use the application, you select the source directory for all of the subdirectories you wish to copy to the flash drive. The application supports multiple source directories in case you have the same subdirectories spread across multiple directories.
+
+Next, 
