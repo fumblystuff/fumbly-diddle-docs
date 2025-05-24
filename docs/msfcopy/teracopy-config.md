@@ -1,15 +1,31 @@
 ---
-title: TeraCopy Configuration
-sidebar_label: TeraCopy Configuration
-sidebar_position: 3
+title: TeraCopy Setup
+sidebar_label: TeraCopy Setup
+sidebar_position: 1
 ---
 
-# TeraCopy Configuration
+## Installation
 
-Bacon ipsum dolor amet buffalo boudin rump alcatra pork chop pastrami frankfurter pancetta, tongue cow fatback shankle. Landjaeger t-bone kevin ham chicken capicola pancetta burgdoggen prosciutto pig shankle doner corned beef beef chuck. Leberkas sirloin flank, tail picanha filet mignon salami spare ribs shoulder alcatra jerky corned beef pig. Strip steak jerky pork chop biltong shoulder, venison boudin filet mignon kielbasa brisket leberkas. Pork loin beef frankfurter jowl pork landjaeger rump drumstick shoulder shank burgdoggen. Chislic prosciutto cupim venison strip steak, corned beef tail sirloin landjaeger short ribs jerky brisket hamburger pork loin.
+To use MSFCopy, you must have a copy of the free [Teracopy](https://www.codesector.com/teracopy) utility installed on your Windows system.  If you do not have TeraCopy installed, navigate to [Code Sector Downloads](https://www.codesector.com/downloads) then download and install the latest version of the application.
 
-Porchetta ball tip landjaeger salami bresaola turkey fatback short loin tenderloin. Tongue burgdoggen jerky, brisket beef hamburger pork chop alcatra. Doner shoulder beef turducken. Short loin beef ribs pig alcatra, picanha ham hock bresaola turducken prosciutto andouille turkey chislic burgdoggen pork chop corned beef. Leberkas andouille buffalo, beef ribs pastrami fatback landjaeger tail tri-tip kielbasa. Ham shoulder shankle leberkas pork landjaeger doner. Ground round ribeye sirloin pork, tenderloin pancetta ham andouille ball tip doner drumstick.
+## Configuration
 
-Chuck chicken ham alcatra biltong, spare ribs ground round pig ham hock shankle pork flank. Frankfurter t-bone tenderloin buffalo chuck bresaola. Hamburger kielbasa jowl corned beef. Sausage porchetta frankfurter, tri-tip hamburger shank chislic drumstick ribeye. Tri-tip capicola jerky leberkas meatball picanha chuck meatloaf shank ham pancetta turducken andouille alcatra frankfurter. Pastrami shankle spare ribs, ham fatback pig prosciutto.
+Out of the box, TeraCopy comes configured to verify the available space on the target device before starting the copy process. Unfortunately, when updating the files on the target device, TeraCopy may report "More space is required" and abort the copy process. This is because TeraCopy checks the target drive for free space equal or grater than the size of the files being copied. 
 
-Porchetta brisket buffalo kielbasa swine bacon. Doner biltong shank shankle prosciutto. Flank chicken sirloin bresaola tail. Chislic venison jerky, meatloaf t-bone prosciutto boudin kevin cupim pancetta. Pig tenderloin shankle pork picanha, frankfurter chuck. Ham hock flank tail ground round tenderloin, prosciutto shank pancetta short loin picanha spare ribs porchetta strip steak. Buffalo cow andouille chislic tri-tip boudin biltong tongue pork chop chuck meatball.
+When overwriting only older files (a MSFCopy and TeraCopy feature), it's possible that there will be enough space on the target drive, but TeraCopy doesn't know it. To get around this potential blocker, you must modify the TeraCopy configuration to disable the application's `CheckFreeSpace` option.
+
+1. Navigate to the TeraCopy configuration folder:
+  + Windows 10/11: C:\Users[YourUsername]\AppData\Roaming\TeraCopy.
+  + Windows 7/Vista: Same location as above.
+  + Windows XP: C:\Documents and Settings[YourUsername]\Application Data\TeraCopy.
+2. Open the `Options.ini` file in a text editor.
+3. Find the line `CheckFreeSpace=1` and change it to `CheckFreeSpace=0`.
+4. Save the file and restart TeraCopy.
+
+Here's an example from my system:
+
+![Windows File Explorer open to the TeraCopy configuration folder](/images/msfcopy/teracopy-disk-space-fix-01.png)
+
+And here's the configuration file with the required change highlighted.
+
+![The TeraCopy Configuration modified with the required change.](/images/msfcopy/teracopy-disk-space-fix-02.png)

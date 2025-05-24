@@ -1,12 +1,8 @@
 ---
 title: MSFCopy Configuration
 sidebar_label: Configuration
-sidebar_position: 1
+sidebar_position: 2
 ---
-
-## Prerequisites 
-
-To use the application, you must have a copy of the free [Teracopy](https://www.codesector.com/teracopy) utility installed on your system.
 
 ## Application Configuration
 
