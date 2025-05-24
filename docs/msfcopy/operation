@@ -4,6 +4,8 @@ sidebar_label: Using the Application
 sidebar_position: 2
 ---
 
-To use the application, you select the source directory for all of the subdirectories you wish to copy to the flash drive. The application supports multiple source directories in case you have the same subdirectories spread across multiple directories.
+To use the application, in the application's main screen you select the root directory for all of the subdirectories you wish to copy to the flash drive. The application supports multiple source directories in case you have the same subfolders spread across multiple root directories. In the **Root Directories** section of the the application's main screen, click the **ADd** button to select the directory.
 
-Next, 
+![](/images/msfcopy/msfcopy-main.png)
+
+Next, add one or more source folders underneath the selected root directory. Select the root directory, then in the **Source Directories** section, click the **Add** button. 
