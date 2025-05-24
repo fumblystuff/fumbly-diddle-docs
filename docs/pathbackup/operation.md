@@ -1,6 +1,6 @@
 ---
-title: Path Backup Operation
-sidebar_label: Operation
+title: Using Path Backup
+sidebar_label: Using
 sidebar_position: 1
 ---
 

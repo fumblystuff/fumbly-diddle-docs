@@ -1,6 +1,6 @@
 ---
-title: MSFCopy Operation
-sidebar_label: Operation
+title: Using MSFCopy
+sidebar_label: Using
 sidebar_position: 1
 ---
 
