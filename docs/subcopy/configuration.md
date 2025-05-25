@@ -18,16 +18,22 @@ Here, you must point the application to the TeraCopy executable. Click the butto
 
 ## Directory Settings
 
-In the application's main screen you select the root directory for all of the subdirectories you wish to copy to the flash drive. In the **Root Directories** section of the the application's main screen, click the button at the end of the input field to browser for the root directory.
+In the application's main screen you select the root directory for all of the subdirectories you wish to copy to the flash drive. 
 
-<!-- ![The application's main screen](/images/SubCopy/subcopy-main-root.png) -->
+In the **Root Directories** section of the the application's main screen, click the button at the end of the input field to browse for the root directory.
 
-Next, add one or more source folders underneath the selected root directory. Select the root directory, then in the **Source Directories** section, click the **Add** button. 
+![The application's main screen](/images/SubCopy/subcopy-main-1.png)
 
-<!-- ![The application's main screen with items selected](/images/SubCopy/subcopy-main-subdirectory-selection.png) -->
+Next, add one or more source folders underneath the selected root directory.
+
+![The application's main screen with the root directory populated](/images/SubCopy/subcopy-main-2.png)
+
+In the **Source Directories** section, click the **Add** button. 
+
+![The application's main screen with items selected](/images/SubCopy/subcopy-main-3.png)
 
 **Note:** You can also drag source folders onto the application using Windows File Explorer.
 
 The following image shows the application's configuration with Root and Source directories selected.
 
-<!-- ![The application's main screen with items selected](/images/SubCopy/subcopy-main-selected.png) -->
+![The application's main screen with items selected](/images/SubCopy/subcopy-main-4.png)
