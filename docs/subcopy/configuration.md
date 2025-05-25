@@ -18,6 +18,7 @@ Here, you must point the application to the TeraCopy executable. Click the butto
 
 ## Directory Settings
 
+
 In the application's main screen you select the root directory for all of the subdirectories you wish to copy to the flash drive. 
 
 In the **Root Directories** section of the the application's main screen, click the button at the end of the input field to browse for the root directory.
