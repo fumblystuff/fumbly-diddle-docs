@@ -22,7 +22,7 @@ In the application's main screen you select the root directory for all of the su
 
 ![The application's main screen](/images/subcopy/subcopy-main-1.png)
 
-In the **Root Directories** section of the the application's main screen, click the button at the end of the input field to browse for the root directory.
+In the **Root Directory** section of the the application's main screen, click the button at the end of the input field to browse for the root directory.
 
 ![The application's main screen with the root directory populated](/images/subcopy/subcopy-main-2.png)
 
