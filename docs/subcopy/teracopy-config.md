@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Installation
 
-To use MSFCopy, you must have a copy of the free [Teracopy](https://www.codesector.com/teracopy) utility installed on your Windows system.  If you do not have TeraCopy installed, navigate to [Code Sector Downloads](https://www.codesector.com/downloads) then download and install the latest version of the application.
+To use SubCopy, you must have a copy of the free [Teracopy](https://www.codesector.com/teracopy) utility installed on your Windows system.  If you do not have TeraCopy installed, navigate to [Code Sector Downloads](https://www.codesector.com/downloads) then download and install the latest version of the application.
 
 ## Configuration
 
