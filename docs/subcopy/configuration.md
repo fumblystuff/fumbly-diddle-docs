@@ -4,9 +4,7 @@ sidebar_label: Configuration
 sidebar_position: 2
 ---
 
-## Application Configuration
-
-### TeraCopy Location
+## TeraCopy Location
 
 After you complete the TeraCopy installation, launch the SubCopy application. When SubCopy starts, since this is the first time you've started the application, the app prompts you to select the location for the TeraCopy executable.
 
@@ -18,7 +16,7 @@ Here, you must point the application to the TeraCopy executable. Click the butto
 
 **Note:** To access the TeraCopy executable setting again, in the SubCopy application's toolbar, click the **Settings** button to open the Settings dialog.
 
-### Directory Settings
+## Directory Settings
 
 In the application's main screen you select the root directory for all of the subdirectories you wish to copy to the flash drive. In the **Root Directories** section of the the application's main screen, click the button at the end of the input field to browser for the root directory.
 
