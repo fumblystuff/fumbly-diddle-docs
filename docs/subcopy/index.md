@@ -1,8 +1,8 @@
 ---
-title: Multiple Source Folder Copy
+title: Subdirectory Copy
 ---
 
-# Multiple Source Folder Copy
+# Subdirectory Copy
 
 The Multiple Source Folder Copy (MSFCopy) application allows you to copy a set of subdirectories to a removable drive (flash drive). For example, if you have a Music directory on your computer organized by artist and album (the way iTunes organizes them) and you want to copy only a subset of those artists to a flash drive. If that's your use case, then this is the utility for you. We built this utility for that specific use case, but we assume there are other use cases this utility handles as well.
 
