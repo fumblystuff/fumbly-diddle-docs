@@ -24,8 +24,8 @@ When overwriting only older files (a MSFCopy and TeraCopy feature), it's possibl
 
 Here's an example from my system:
 
-![Windows File Explorer open to the TeraCopy configuration folder](/images/msfcopy/teracopy-disk-space-fix-01.png)
+![Windows File Explorer open to the TeraCopy configuration folder](/images/subcopy/teracopy-disk-space-fix-01.png)
 
 And here's the configuration file with the required change highlighted.
 
-![The TeraCopy Configuration modified with the required change.](/images/msfcopy/teracopy-disk-space-fix-02.png)
+![The TeraCopy Configuration modified with the required change.](/images/subcopy/teracopy-disk-space-fix-02.png)
