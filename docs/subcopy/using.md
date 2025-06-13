@@ -12,7 +12,7 @@ Once you've configured the application with:
 
 You can start copying the contents of the source subdirectories to an external drive.
 
-In the main application window's toolbar, click the **Start** button. The application opens the **Copy Source Directories** window where you select options for the copy process as shown in the following figure:
+In the main application window's toolbar, click the **Start COpy** button on the toolbar at the bottom of the application's main screen. The application opens the **Copy Source Directories** window where you select options for the copy process as shown in the following figure:
 
 ![The application's start screen](/images/subcopy/subcopy-copy-1.png)
 
