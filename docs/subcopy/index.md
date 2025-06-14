@@ -10,4 +10,6 @@ For example, if you have a Music directory on your computer organized by artist 
 
 You could create and maintain a simple Windows command (batch) file that copies all the artist subdirectories for you, but that's difficult to maintain. SubCopy delivers a clean interface for managing the source folder list and copying the files to the target drive. You can add the folders manually, or your can simply drag the folders onto the application window to add them to the source folder list.
 
+Find the full application source on GitHub at [subdirectory-copy](https://github.com/fumblystuff/subdirectory-copy).
+
 **Note:** The application uses the free [Teracopy](https://www.codesector.com/teracopy) utility to manage the copy process; so you must have TeraCopy installed to use this application. If you find you like the capabilities TeraCopy provides, please consider buying a license.
