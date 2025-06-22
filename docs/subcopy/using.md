@@ -1,7 +1,7 @@
 ---
 title: Using SubCopy
 sidebar_label: Using
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 Once you've configured the application with:
