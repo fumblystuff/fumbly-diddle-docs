@@ -20,7 +20,7 @@ With timestamp options, the application allows you to optionally zero out the mi
 
 | Option        | Description | 
 | ------------- | ----------- |
-| `##:##:##:##` | Use the full time value as the timestamp value. |
+| `##:##:##:##` | Use the full time as the timestamp value. |
 | `##:##:##:00` | Use the current time with milliseconds zeroed out. |
 | `##:##:00:00` | Use the current time with seconds and milliseconds zeroed out. |
 
